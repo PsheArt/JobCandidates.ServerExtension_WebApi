@@ -16,26 +16,26 @@ namespace CandidateService.Controllers
             this.CandidateService = candidateService;
         }
 
-        [HttpGet]
+        [HttpGet("/get_{id}")]
         public IActionResult GetCandidate(Guid Id)
         {
             return Ok(CandidateService.GetCandidate(Id));
 
         }
-        [HttpGet]
+        [HttpGet("/all")]
         public IActionResult GetAll()
         {
             return Ok(CandidateService.GetCandidates());
         }
 
-        [HttpPost]
+        [HttpPost("new_candidate")]
         public IActionResult Create([FromBody] CandidateModels candidate)
         {
             candidate.Id = Guid.NewGuid();
             CandidateService.AddCandidate(candidate);
             return CreatedAtAction(nameof(GetAll), new { id = candidate.Id }, candidate);
         }
-        [HttpPost]
+        [HttpPost("update{id}")]
         public IActionResult UpdateCandidate([FromBody] CandidateModels candidate)
         {
             CandidateService.UpdateCandidate(candidate);

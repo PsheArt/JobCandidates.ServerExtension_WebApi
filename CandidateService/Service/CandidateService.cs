@@ -6,9 +6,9 @@ namespace CandidateService.Service
     {
 
         public List<CandidateModels> testDataCandidates = new List<CandidateModels>() {
-            new CandidateModels { Id = new Guid(), FullName = "Петров Пётр Петрович", Email = "petrov.pp@gmail.com", BirthDate = new DateTime(2001, 01, 01), PhoneNumber = "+123-32-432" },
-            new CandidateModels { Id = new Guid(), FullName = "Сидоров Сидор Петрович", Email = "sidorov.sp@gmail.com", BirthDate = new DateTime(2001, 03, 01), PhoneNumber = "+323-32-432" },
-            new CandidateModels { Id = new Guid(), FullName = "Иванов Иван Иванович", Email = "ivanid.ii@gmail.com", BirthDate = new DateTime(2001, 05, 01), PhoneNumber = "+223-32-432" },
+            new CandidateModels { Id = Guid.NewGuid(), FullName = "Петров Пётр Петрович", Email = "petrov.pp@gmail.com", BirthDate = new DateTime(2001, 01, 01), PhoneNumber = "+123-32-432" },
+            new CandidateModels { Id = Guid.NewGuid(), FullName = "Сидоров Сидор Петрович", Email = "sidorov.sp@gmail.com", BirthDate = new DateTime(2001, 03, 01), PhoneNumber = "+323-32-432" },
+            new CandidateModels { Id = Guid.NewGuid(), FullName = "Иванов Иван Иванович", Email = "ivanid.ii@gmail.com", BirthDate = new DateTime(2001, 05, 01), PhoneNumber = "+223-32-432" },
         };
         
         public CandidateService() 
