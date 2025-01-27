@@ -16,13 +16,14 @@ namespace CandidateService.Controllers
             this.CandidateService = candidateService;
         }
 
-        [HttpGet("/get_{id}")]
-        public IActionResult GetCandidate(Guid Id)
+        [HttpGet("get_{Id}")]
+        public IActionResult GetCandidate(string Id)
         {
-            return Ok(CandidateService.GetCandidate(Id));
+
+            return Ok(CandidateService.GetCandidate(Guid.Parse(Id)));
 
         }
-        [HttpGet("/all")]
+        [HttpGet("all")]
         public IActionResult GetAll()
         {
             return Ok(CandidateService.GetCandidates());
