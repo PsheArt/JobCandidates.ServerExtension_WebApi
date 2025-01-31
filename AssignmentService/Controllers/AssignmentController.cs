@@ -20,13 +20,18 @@ namespace AssignmentService.Controllers
         {
             return Ok(AssignmentService.GetAssignment(Id));
         }
-        [HttpPost("addAssignment")]
+        [HttpPost("add_assignment")]
         public IActionResult AddAssignment([FromBody] AssignmentModel assignment)
         {
             return Ok(AssignmentService.AddAssignment(assignment));
         }
-        [HttpGet]
+        [HttpGet("get_all")]
         public IActionResult GetAll(){ return Ok(AssignmentService.GetAll()); }
+
+        [HttpPost("update_assignment")]
+        public IActionResult UpdateAssignment([FromBody] AssignmentModel assignmetnt) { return Ok(AssignmentService.UpdateAssignment(assignmetnt)); }
+        [HttpPost("delete_assignment{id}")]
+        public IActionResult DeleteAssignment(Guid Id) { return Ok(AssignmentService.RemoveAssignment(Id)); }    
         
     }
 }
