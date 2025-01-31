@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\CandidateService\\CandidateService.csproj": {}
+    "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\CandidateService\\CandidateService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\CandidateService\\CandidateService.csproj": {
+    "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\CandidateService\\CandidateService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\CandidateService\\CandidateService.csproj",
+        "projectUniqueName": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\CandidateService\\CandidateService.csproj",
         "projectName": "CandidateService",
-        "projectPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\CandidateService\\CandidateService.csproj",
+        "projectPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\CandidateService\\CandidateService.csproj",
         "packagesPath": "C:\\Users\\playi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\CandidateService\\obj\\",
+        "outputPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\CandidateService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\DevExpress 22.2\\Components\\Offline Packages",

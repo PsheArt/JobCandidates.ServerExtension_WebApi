@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterviewService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3927172f3c98801c099d8dac9130cec6cf6aeb70")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d81d07d305377fcb8be230ce152fa65855090a78")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e22f39eb112ab22d2bb211966d4ef613ce7942e")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterviewService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterviewService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

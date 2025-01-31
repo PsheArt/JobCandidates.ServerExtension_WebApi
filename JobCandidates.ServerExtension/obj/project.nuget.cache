@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pio6r2yK5p8=",
+  "dgSpecHash": "E90U/zofyYA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension.csproj",
+  "projectFilePath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\playi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\playi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

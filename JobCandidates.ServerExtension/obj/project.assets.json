@@ -435,11 +435,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension.csproj",
+      "projectUniqueName": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension.csproj",
       "projectName": "JobCandidates.ServerExtension",
-      "projectPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension.csproj",
+      "projectPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension.csproj",
       "packagesPath": "C:\\Users\\playi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\JobCandidates.ServerExtension\\obj\\",
+      "outputPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\JobCandidates.ServerExtension\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\DevExpress 22.2\\Components\\Offline Packages",
