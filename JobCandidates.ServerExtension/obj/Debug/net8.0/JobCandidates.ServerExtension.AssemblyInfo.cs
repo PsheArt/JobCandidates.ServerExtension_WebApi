@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JobCandidates.ServerExtension")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5310597e24f7ac2c75da3872f9e3112970ad7f5")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d81d07d305377fcb8be230ce152fa65855090a78")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("JobCandidates.ServerExtension")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JobCandidates.ServerExtension")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
