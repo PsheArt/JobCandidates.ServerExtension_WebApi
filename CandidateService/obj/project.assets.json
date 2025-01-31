@@ -435,11 +435,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\CandidateService\\CandidateService.csproj",
+      "projectUniqueName": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\CandidateService\\CandidateService.csproj",
       "projectName": "CandidateService",
-      "projectPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\CandidateService\\CandidateService.csproj",
+      "projectPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\CandidateService\\CandidateService.csproj",
       "packagesPath": "C:\\Users\\playi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\CandidateService\\obj\\",
+      "outputPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\CandidateService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\DevExpress 22.2\\Components\\Offline Packages",
@@ -508,5 +508,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

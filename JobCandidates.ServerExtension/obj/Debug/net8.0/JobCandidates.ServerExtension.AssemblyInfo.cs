@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JobCandidates.ServerExtension")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a12a591aa15f2c0edec96bc43d8de665add86577")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e9a997c02c078538b30b112eb9ccc1827e8ba0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("JobCandidates.ServerExtension")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JobCandidates.ServerExtension")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

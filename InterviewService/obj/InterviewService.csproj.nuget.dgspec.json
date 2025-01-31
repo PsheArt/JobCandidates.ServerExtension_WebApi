@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\InterviewService\\InterviewService.csproj": {}
+    "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\InterviewService\\InterviewService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\InterviewService\\InterviewService.csproj": {
+    "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\InterviewService\\InterviewService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\InterviewService\\InterviewService.csproj",
+        "projectUniqueName": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\InterviewService\\InterviewService.csproj",
         "projectName": "InterviewService",
-        "projectPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\InterviewService\\InterviewService.csproj",
+        "projectPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\InterviewService\\InterviewService.csproj",
         "packagesPath": "C:\\Users\\playi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\InterviewService\\obj\\",
+        "outputPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\InterviewService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\DevExpress 22.2\\Components\\Offline Packages",

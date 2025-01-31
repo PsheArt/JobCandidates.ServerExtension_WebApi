@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\AssignmentService\\AssignmentService.csproj": {}
+    "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\AssignmentService\\AssignmentService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\AssignmentService\\AssignmentService.csproj": {
+    "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\AssignmentService\\AssignmentService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\AssignmentService\\AssignmentService.csproj",
+        "projectUniqueName": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\AssignmentService\\AssignmentService.csproj",
         "projectName": "AssignmentService",
-        "projectPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\AssignmentService\\AssignmentService.csproj",
+        "projectPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\AssignmentService\\AssignmentService.csproj",
         "packagesPath": "C:\\Users\\playi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\playi\\source\\repos\\JobCandidates.ServerExtension\\AssignmentService\\obj\\",
+        "outputPath": "C:\\Users\\playi\\OneDrive\\Документы\\GitHub\\JobCandidates.ServerExtension_WebApi\\AssignmentService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\DevExpress 22.2\\Components\\Offline Packages",
