@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\JobCandidates.ServerExtension.props" />
-</Project>
