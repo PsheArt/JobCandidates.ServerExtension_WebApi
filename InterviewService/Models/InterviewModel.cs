@@ -10,6 +10,7 @@ namespace InterviewService.Models
         public string Description { get; set; }
         public AssignmentModel Assignment { get; set; }
         public CandidateModels Candidate { get; set; }
+        public string Interviewer { get; set;   }
 
     }
 }
