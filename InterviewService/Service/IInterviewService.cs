@@ -13,7 +13,7 @@ namespace InterviewService.Service
         string UpdateInterview(InterviewModel interview);
         string DeleteInterview(Guid Id);
         string GetInteviewer(Guid Id);
-
+        List<InterviewModel> OrderInterviews(string parameter);
 
     }
 }
