@@ -91,7 +91,9 @@ namespace InterviewService.Service
         {
             if(parameter == "Name") return interviews.OrderBy(x => x.Name).ToList();
             if (parameter == "Task") return interviews.OrderBy(x=>x.Assignment.NameTask).ToList();
-            if (parameter == "Interviewer") return interviews.OrderBy(x => x.Interviewer).ToList();
+            if (parameter == "Interviewer") return interviews.OrderBy(x => x.Interviewer).ToList()
+                    ;
+            return interviews;  
         }
     }
 }
