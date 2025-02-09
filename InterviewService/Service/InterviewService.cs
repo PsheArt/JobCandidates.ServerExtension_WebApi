@@ -1,5 +1,6 @@
 ﻿using AssignmentService.Models;
 using AssignmentService.Service;
+using CandidateService.Models;
 using InterviewService.Models;
 using System.Reflection.Metadata.Ecma335;
 
@@ -95,5 +96,9 @@ namespace InterviewService.Service
                     ;
             return interviews;  
         }
+        public CandidateModels GetCandidate(Guid Id) => GetInterview(Id).Candidate;
+        public string GetDepartment(Guid Id) => GetInterview(Id).Departmaent;
+
+
     }
 }
