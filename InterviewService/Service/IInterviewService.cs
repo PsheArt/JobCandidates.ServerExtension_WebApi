@@ -1,4 +1,5 @@
 ﻿using AssignmentService.Models;
+using CandidateService.Models;
 using InterviewService.Models;
 
 namespace InterviewService.Service
@@ -14,6 +15,11 @@ namespace InterviewService.Service
         string DeleteInterview(Guid Id);
         string GetInteviewer(Guid Id);
         List<InterviewModel> OrderInterviews(string parameter);
+        CandidateModels GetCandidate(Guid Id);
+        string GetDepartment(Guid Id);
+        string GetPosition(Guid Id);
+        string GetStatus(Guid Id);
+
 
     }
 }
