@@ -98,6 +98,9 @@ namespace InterviewService.Service
         }
         public CandidateModels GetCandidate(Guid Id) => GetInterview(Id).Candidate;
         public string GetDepartment(Guid Id) => GetInterview(Id).Departmaent;
+        public string GetPosition(Guid Id)=> GetInterview(Id).Position;
+        public string GetStatus(Guid Id) => GetInterview(Id).Status;
+
 
 
     }
