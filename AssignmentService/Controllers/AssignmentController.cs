@@ -16,22 +16,17 @@ namespace AssignmentService.Controllers
         }
 
         [HttpGet("get_{Id}")]
-        public IActionResult GetAssignment(Guid Id)
-        {
-            return Ok(AssignmentService.GetAssignment(Id));
-        }
+        public IActionResult GetAssignment(Guid Id)=>Ok(AssignmentService.GetAssignment(Id));
         [HttpPost("add_assignment")]
-        public IActionResult AddAssignment([FromBody] AssignmentModel assignment)
-        {
-            return Ok(AssignmentService.AddAssignment(assignment));
-        }
+        public IActionResult AddAssignment([FromBody] AssignmentModel assignment) => Ok(AssignmentService.AddAssignment(assignment));
+
         [HttpGet("get_all")]
-        public IActionResult GetAll(){ return Ok(AssignmentService.GetAll()); }
+        public IActionResult GetAll() => Ok(AssignmentService.GetAll()); 
 
         [HttpPost("update_assignment")]
-        public IActionResult UpdateAssignment([FromBody] AssignmentModel assignmetnt) { return Ok(AssignmentService.UpdateAssignment(assignmetnt)); }
+        public IActionResult UpdateAssignment([FromBody] AssignmentModel assignmetnt) => Ok(AssignmentService.UpdateAssignment(assignmetnt)); 
         [HttpPost("delete_assignment{id}")]
-        public IActionResult DeleteAssignment(Guid Id) { return Ok(AssignmentService.RemoveAssignment(Id)); }    
+        public IActionResult DeleteAssignment(Guid Id) => Ok(AssignmentService.RemoveAssignment(Id));  
         
     }
 }
