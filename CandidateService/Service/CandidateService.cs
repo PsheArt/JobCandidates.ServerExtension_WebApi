@@ -15,14 +15,10 @@ namespace CandidateService.Service
         {
         }
 
-        public CandidateModels GetCandidate(Guid Id)
-        {
-          return testDataCandidates.FirstOrDefault(x => x.Id == Id);
-        }
-        public List<CandidateModels> GetCandidates() 
-        {
-            return testDataCandidates;
-        }
+        public CandidateModels GetCandidate(Guid Id)=> testDataCandidates.FirstOrDefault(x => x.Id == Id);
+    
+        public List<CandidateModels> GetCandidates() => testDataCandidates;
+
         public string AddCandidate(CandidateModels candidate) 
         {
             testDataCandidates.Add(candidate);
