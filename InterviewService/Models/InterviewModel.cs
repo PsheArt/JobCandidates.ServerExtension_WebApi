@@ -14,6 +14,8 @@ namespace InterviewService.Models
         public string Departmaent { get; set; }
         public string Position { get; set; }
         public string Status { get; set; }
+        public string HeadOfDepartment { get; set; }
+
 
     }
 }
