@@ -100,8 +100,7 @@ namespace InterviewService.Service
         public string GetDepartment(Guid Id) => GetInterview(Id).Departmaent;
         public string GetPosition(Guid Id)=> GetInterview(Id).Position;
         public string GetStatus(Guid Id) => GetInterview(Id).Status;
-
-
+        public string GetHeadOfDepartment(Guid Id) => GetInterview(Id).HeadOfDepartment;
 
     }
 }

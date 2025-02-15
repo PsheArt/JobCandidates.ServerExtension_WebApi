@@ -19,7 +19,7 @@ namespace InterviewService.Service
         string GetDepartment(Guid Id);
         string GetPosition(Guid Id);
         string GetStatus(Guid Id);
-
+        string GetHeadOfDepartment(Guid Id);
 
     }
 }
