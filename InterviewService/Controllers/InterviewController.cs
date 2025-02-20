@@ -13,7 +13,7 @@ namespace InterviewService.Controllers
         {
             this.InterviewService = interviewService;
         }
-
+        public IActionResult GetInterviews() => Ok(InterviewService.Interviews());
         
     }
 }
