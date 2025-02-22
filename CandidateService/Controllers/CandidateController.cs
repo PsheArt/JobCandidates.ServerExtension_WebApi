@@ -36,7 +36,7 @@ namespace CandidateService.Controllers
             CandidateService.AddCandidate(candidate);
             return CreatedAtAction(nameof(GetAll), new { id = candidate.Id }, candidate);
         }
-        [HttpPost("update{id}")]
+        [HttpPost("update_{id}")]
         public IActionResult UpdateCandidate([FromBody] CandidateModels candidate)
         {
             CandidateService.UpdateCandidate(candidate);
