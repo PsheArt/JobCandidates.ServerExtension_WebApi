@@ -19,9 +19,9 @@ namespace InterviewService.Controllers
         public IActionResult GetInterview(Guid Id) => Ok(InterviewService.GetInterview(Id));
         [HttpGet("GetInterviewer_{Id}")]
         public IActionResult GetInterviewer(Guid Id) => Ok(InterviewService.GetInteviewer(Id));
-        [HttpGet("GetHeadOfDepartment")]
+        [HttpGet("GetHeadOfDepartment_{Id}")]
         public IActionResult GetHeadOfDepartment(Guid Id) => Ok(InterviewService.GetHeadOfDepartment(Id));
+        [HttpGet("GetDepartment_{Id}")]
         public IActionResult GetDepartment(Guid Id) => Ok(InterviewService.GetDepartment(Id));
-        
     }
 }
