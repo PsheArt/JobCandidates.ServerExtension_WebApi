@@ -16,10 +16,10 @@ namespace InterviewService.Controllers
         [HttpGet("GetInterviews")]
         public IActionResult GetInterviews() => Ok(InterviewService.Interviews());
 
-        [HttpGet("GetInterview_{Id}")]
+        [HttpGet("GetInterview/{Id}")]
         public IActionResult GetInterview(Guid Id) => Ok(InterviewService.GetInterview(Id));
 
-        [HttpGet("GetInterviewer_{Id}")]
+        [HttpGet("GetInterviewer/{Id}")]
         public IActionResult GetInterviewer(Guid Id) => Ok(InterviewService.GetInteviewer(Id));
 
         [HttpGet("GetHeadOfDepartment_{Id}")]
