@@ -22,10 +22,10 @@ namespace InterviewService.Controllers
         [HttpGet("GetInterviewer/{Id}")]
         public IActionResult GetInterviewer(Guid Id) => Ok(InterviewService.GetInteviewer(Id));
 
-        [HttpGet("GetHeadOfDepartment_{Id}")]
+        [HttpGet("GetHeadOfDepartment/{Id}")]
         public IActionResult GetHeadOfDepartment(Guid Id) => Ok(InterviewService.GetHeadOfDepartment(Id));
 
-        [HttpGet("GetDepartment_{Id}")]
+        [HttpGet("GetDepartment/{Id}")]
         public IActionResult GetDepartment(Guid Id) => Ok(InterviewService.GetDepartment(Id));
         
     }
